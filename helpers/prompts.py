@@ -3,7 +3,7 @@ from yachalk import chalk
 sys.path.append("..")
 
 import json
-import knowledge_graph_and_rag.helpers.ollama.client as client
+import knowledge_graph_and_rag.ollama.client as client
 
 
 def extractConcepts(prompt: str, metadata={}, model="mistral-openorca:latest"):
